@@ -1,0 +1,6 @@
+<?php
+/* CbPlus */
+/*
+
+*/
+ namespace Test\Linear; use PHPUnit\Framework\TestCase; use Test\TestUtil; class StandardTwoOfFiveTest extends TestUtil { protected function getTestObject() { return new \Com\Tecnick\Barcode\Barcode(); } public function testGetGrid() { goto x8Z0gAR6qMj2; QT7DTzYWVQPj: $bobj = $testObj->getBarcodeObj("\123\62\65", "\x30\61\x32\x33\64\x35\x36\67\70\71"); goto P0UgP1qE0Kxr; uFTSzf_4O51N: $expected = "\61\61\61\60\61\61\61\60\x31\60\61\x30\x31\60\61\61\x31\60\61\x31\x31\60\61\60\x31\x31\61\x30\61\60\x31\x30\x31\60\x31\61\x31\x30\61\60\x31\61\x31\60\61\60\61\x30\61\61\61\60\61\61\61\60\61\x31\61\x30\x31\60\x31\x30\61\60\61\x30\61\x30\61\x31\x31\x30\x31\60\x31\61\61\x30\x31\61\61\60\x31\x30\x31\x31\61\x30\61\x30\x31\60\61\x30" . "\61\x31\61\x30\x31\x31\x31\x30\x31\x30\61\x30\x31\60\x31\60\61\60\61\61\x31\x30\61\x31\x31\x30\61\x31\61\x30\x31\60\61\60\x31\61\61\60\x31\60\61\60\61\x31\61\60\61\60\x31\x31\x31\x30\61\x30\61\x31\x31\60\61\x30\x31\x31\x31" . "\12"; goto Ivw4RrHQF9Lz; Ivw4RrHQF9Lz: $this->assertEquals($expected, $grid); goto jGrNn5648Thp; P0UgP1qE0Kxr: $grid = $bobj->getGrid(); goto uFTSzf_4O51N; x8Z0gAR6qMj2: $testObj = $this->getTestObject(); goto QT7DTzYWVQPj; jGrNn5648Thp: } }

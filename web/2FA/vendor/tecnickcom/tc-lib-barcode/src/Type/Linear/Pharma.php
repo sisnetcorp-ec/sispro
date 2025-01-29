@@ -1,0 +1,6 @@
+<?php
+/* CbPlus */
+/*
+
+*/
+ namespace Com\Tecnick\Barcode\Type\Linear; use Com\Tecnick\Barcode\Exception as BarcodeException; class Pharma extends \Com\Tecnick\Barcode\Type\Linear { protected $format = "\x50\110\101\x52\115\x41"; protected function setBars() { goto qnREy7e1MchS; T_gAsYHfElCX: $seq = substr($seq, 0, -2); goto LsTawolxvFzH; PzlbqXUwm333: $seq .= "\61\61\61\x30\60"; goto aubRozRQHBNT; yow_O8rYZ7u2: bb3WRQaRLxeR: goto uzoE1HyCvWQG; FPZcB0Ktj88n: $this->processBinarySequence($seq); goto GGFESih41S4n; cpGlS3CSnfz5: $code = intval($this->code); goto JHIgL9doTv0b; JHIgL9doTv0b: XQe_IwBeRfrk: goto KvB8zDnSV2qh; Euw0uYR7uCPE: $code -= 1; goto TwgIKyKDA_iD; LsTawolxvFzH: $seq = strrev($seq); goto FPZcB0Ktj88n; gVK0hqTUG9El: wyJ4LWfHCE3n: goto PzlbqXUwm333; rb3CqSG0trXK: goto XQe_IwBeRfrk; goto hwy1lOnnsXMQ; tSBP0iJ1EfFt: if ($code % 2 == 0) { goto wyJ4LWfHCE3n; } goto LFFccG84h18e; LFFccG84h18e: $seq .= "\61\60\60"; goto Euw0uYR7uCPE; qnREy7e1MchS: $seq = ''; goto cpGlS3CSnfz5; hwy1lOnnsXMQ: Lz6L0iHbvp00: goto T_gAsYHfElCX; aubRozRQHBNT: $code -= 2; goto yow_O8rYZ7u2; TwgIKyKDA_iD: goto bb3WRQaRLxeR; goto gVK0hqTUG9El; uzoE1HyCvWQG: $code /= 2; goto rb3CqSG0trXK; KvB8zDnSV2qh: if (!($code > 0)) { goto Lz6L0iHbvp00; } goto tSBP0iJ1EfFt; GGFESih41S4n: } }
