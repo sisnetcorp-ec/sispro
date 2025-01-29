@@ -1,0 +1,15 @@
+[Unit]
+Description=CbPlus Main Daemon
+
+[Service]
+Type=simple
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=cbplus-main-daemon
+
+ExecStart=/opt/cbplus/cbplusd
+Restart=always
+StartLimitIntervalSec=5
+
+[Install]
+WantedBy=multi-user.target

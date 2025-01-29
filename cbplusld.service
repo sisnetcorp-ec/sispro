@@ -1,0 +1,16 @@
+[Unit]
+Description=CbPlus License Daemon
+
+[Service]
+Type=simple
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=cbplus-license-daemon
+
+ExecStart=/opt/cbplus/cbplusld
+Restart=always
+StartLimitIntervalSec=5
+
+[Install]
+WantedBy=multi-user.target
+
