@@ -1,0 +1,6 @@
+<?php
+/* CbPlus */
+/*
+
+*/
+ namespace MincDev\OtpAuth; final class OtpAuthException extends \RuntimeException { public static function InvalidAccountName(string $accountName) : self { return new self(sprintf("\x54\150\145\x20\x61\x63\x63\157\165\156\164\x20\x6e\141\155\x65\x20\x6d\141\x79\40\x6e\x6f\x74\x20\x63\x6f\x6e\x74\141\151\x6e\40\141\x20\144\157\165\142\154\x65\40\x63\x6f\154\x6f\156\40\x28\72\x29\40\x61\x6e\x64\40\x6d\141\x79\x20\x6e\157\x74\x20\x62\145\x20\141\156\x20\x65\155\160\x74\x79\x20\x73\x74\x72\151\x6e\x67\56\x20\x47\151\166\x65\x6e\40\42\45\163\42\56", $accountName)); } public static function InvalidIssuer(string $issuer) : self { return new self(sprintf("\124\x68\x65\40\x69\163\x73\165\x65\x72\x20\x6e\x61\x6d\145\x20\155\x61\x79\40\x6e\x6f\164\x20\143\157\156\164\141\151\x6e\40\141\x20\144\157\165\142\x6c\x65\40\x63\x6f\154\157\156\x20\50\72\x29\40\x61\156\x64\x20\155\x61\171\40\156\x6f\x74\x20\142\x65\x20\141\156\40\x65\x6d\x70\x74\x79\40\163\x74\162\x69\156\x67\x2e\x20\107\151\x76\145\x6e\x20\x22\x25\x73\x22\x2e", $issuer)); } public static function InvalidSecret() : self { return new self("\124\x68\x65\40\163\x65\143\x72\x65\164\x20\156\x61\x6d\145\40\155\x61\171\x20\156\157\164\x20\x62\145\x20\x61\156\x20\x65\155\160\x74\171\x20\163\164\162\x69\156\x67\56"); } }
