@@ -1,0 +1,28 @@
+           account                                                      status             created       last logon
+------------------------------------------------------------   ---------------     ---------------  ---------------
+galsync.7e5s2ye52@carbteste3.for.mat.br                                 active      08/30/24 01:14            never
+ham.i5xjmanqax@carbteste3.for.mat.br                                    active      08/30/24 01:12            never
+lulu1@carbteste3.for.mat.br                                             active      09/30/24 12:24  20240930122628.
+lulu10@carbteste3.for.mat.br                                            active      09/30/24 12:24            never
+lulu11@carbteste3.for.mat.br                                            active      09/30/24 12:24            never
+lulu12@carbteste3.for.mat.br                                            active      09/30/24 12:24            never
+lulu13@carbteste3.for.mat.br                                            active      09/30/24 12:24            never
+lulu14@carbteste3.for.mat.br                                            active      09/30/24 12:24            never
+lulu15@carbteste3.for.mat.br                                            active      09/30/24 12:24            never
+lulu2@carbteste3.for.mat.br                                             active      09/30/24 12:24            never
+lulu3@carbteste3.for.mat.br                                             active      09/30/24 12:24            never
+lulu4@carbteste3.for.mat.br                                             active      09/30/24 12:24            never
+lulu5@carbteste3.for.mat.br                                             active      09/30/24 12:24            never
+lulu6@carbteste3.for.mat.br                                             active      09/30/24 12:24  20241003002332.
+lulu7@carbteste3.for.mat.br                                             active      09/30/24 12:24            never
+lulu8@carbteste3.for.mat.br                                             active      09/30/24 12:24  20241001043957.
+lulu9@carbteste3.for.mat.br                                             active      09/30/24 12:24            never
+spam.mxuwmo1zr8@carbteste3.for.mat.br                                   active      08/30/24 01:12            never
+virus-quarantine.9teojpgbpy@carbteste3.for.mat.br                       active      08/30/24 01:12            never
+zextras@carbteste3.for.mat.br                                           active      08/30/24 01:12  20240910210413.
+
+                                 domain summary
+
+    domain                  active    closed    locked    maintenance     total
+-----------------------   --------  --------  --------  -------------  --------
+carbteste3.for.mat.br           20         0         0              0        20
