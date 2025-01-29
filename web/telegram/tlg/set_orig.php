@@ -1,0 +1,6 @@
+<?php
+/* CbPlus */
+/*
+
+*/
+ goto oZF7UMrRyYgM; KBoHbIQoGLzn: $bot_cb_url = $bot_conf["\142\x6f\164"]["\x63\x62\x5f\165\x72\x6c"]; goto GlFKfaVGcgTQ; q_M7367wRMEP: $bot_name = $bot_conf["\164\x65\154\145\147\x72\x61\x6d"]["\x6e\x61\x6d\x65"]; goto KBoHbIQoGLzn; EYAGyzeZi3PK: $bot_api_key = $bot_conf["\164\145\x6c\x65\x67\162\141\x6d"]["\141\160\x69\137\153\x65\171"]; goto q_M7367wRMEP; oZF7UMrRyYgM: $bot_conf = parse_ini_file("\57\x76\141\162\57\167\167\167\x2f\150\x74\155\154\57\x63\x6f\x6e\146\151\x67\x2f\164\154\x67\x2e\143\157\156\146", true); goto EYAGyzeZi3PK; v2AGqqoDv87q: require __DIR__ . "\57\x76\x65\156\x64\157\162\x2f\141\x75\164\157\x6c\x6f\141\x64\56\x70\x68\160"; goto DqSyKEKZJAza; GlFKfaVGcgTQ: $hook_url = "{$bot_cb_url}" . "\x2f\164\154\x67\56\x70\150\160"; goto v2AGqqoDv87q; DqSyKEKZJAza: try { goto Rs0YjKvtMbK7; YQ_Qo0sZhMiw: om2ssIqKmSl8: goto SXoRtve5BYUy; Rs0YjKvtMbK7: $telegram = new Longman\TelegramBot\Telegram($bot_api_key, $bot_name); goto HfXfBTqJIHS7; HfXfBTqJIHS7: $result = $telegram->setWebhook($hook_url); goto LErB61hLcFnL; LErB61hLcFnL: if (!$result->isOk()) { goto om2ssIqKmSl8; } goto nCuy9bLuFtu0; nCuy9bLuFtu0: echo $result->getDescription(); goto YQ_Qo0sZhMiw; SXoRtve5BYUy: } catch (Longman\TelegramBot\Exception\TelegramException $e) { echo $e->getMessage(); }
